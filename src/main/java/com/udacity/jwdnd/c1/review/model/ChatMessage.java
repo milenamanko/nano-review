@@ -12,6 +12,10 @@ public class ChatMessage {
 
     private String message;
 
+    public ChatMessage() {
+
+    }
+
     public ChatMessage(Integer messageId, String username, String message) {
         this.messageId = messageId;
         this.username = username;

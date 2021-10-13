@@ -18,7 +18,7 @@ public class UserService {
         this.hashService = hashService;
     }
 
-    public boolean isUsenameAvailable(String username) {
+    public boolean isUsernameAvailable(String username) {
         return userMapper.getUser(username) == null;
     }
 
